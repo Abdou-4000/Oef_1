@@ -2,7 +2,7 @@
 
 body {
     font-family: "Piedra", serif;
-    background-image: url(halloween_bg.jpg);
+    background-image: url(halloween_achtergrond.png);
     background-color: #252422;
     background-repeat: no-repeat;
     background-position: center top;
@@ -49,6 +49,7 @@ a:hover {
 }
 
 .container-fluid {
+
     align-content: center;
     color: white;
     margin-top: 150px;
