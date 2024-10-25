@@ -1,0 +1,36 @@
+
+body {
+    background-color: #252422;
+    color: #ffffff;
+    font-family: 'Piedra', serif;
+}
+
+.title {
+    color: #eb5e28;
+    text-shadow: 0px 0px 10px #ff7518, 0px 0px 0px #f5ac8f;
+    animation: flicker 1.5s infinite alternate;
+}
+
+.accordion-button {
+    background-color: #403d39;
+    color: #ccc5b9;
+    border: none;
+    outline: none;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.accordion-button.collapsed {
+    color: #ccc5b9;
+    background-color: #403d39;
+    
+}
+
+.accordion-button:not(.collapsed):hover {
+    background-color: #524a52;
+}
+
+.accordion-body {
+    background-color: #403d39;
+    color: #ccc5b9;
+}
