@@ -32,7 +32,6 @@ body {
 }
 
 .navigation {
-    display: flex; 
     align-items: center; /
 }
 
@@ -50,12 +49,6 @@ a:hover {
 }
 
 .container-fluid {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0px;
-    align-items: center;
     align-content: center;
     color: white;
     margin-top: 150px;
@@ -63,16 +56,11 @@ a:hover {
 }
 
 .box1 {
-    flex: 0 0 150;
     background-color: #403D39;
-    width: 500px;
     padding: 20px;
-
 }
 
 .box2 {
-    flex: 0 0 150;
     background-color: rgb(122, 116, 124);
-    width: 500px;
     padding: 20px;
 }
