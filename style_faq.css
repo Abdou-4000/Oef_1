@@ -3,6 +3,7 @@ body {
     background-color: #252422;
     color: #ffffff;
     font-family: 'Piedra', serif;
+    padding-top: 20px;
 }
 
 .title {
@@ -33,4 +34,44 @@ body {
 .accordion-body {
     background-color: #403d39;
     color: #ccc5b9;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 10px;
+}
+
+header .logo {
+    font-size: 26px;
+    color: #252422;
+    font-weight: bold;
+    font-family: 'Piedra', sans-serif;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #252422;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #EB5E28;
 }
